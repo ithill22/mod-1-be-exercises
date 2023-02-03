@@ -6,6 +6,7 @@ RSpec.describe Card do
     card = Card.new("What is the capital of Alaska?", "Juneau", :Geography)
 
     expect(card).to be_instance_of(Card)
+ 
   end
 
   it 'has a question' do
@@ -26,3 +27,5 @@ RSpec.describe Card do
     expect(card.category).to eq(:Geography)
   end
 end
+
+

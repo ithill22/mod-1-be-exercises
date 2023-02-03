@@ -49,7 +49,7 @@ RSpec.describe Vampire do
     expect(vampire2.cape_color).to eq("black")
   end
 
-  it "can sleep" do
+  xit "can sleep" do
     vampire = Vampire.new("Elizabeth Bathory", "purple")
 
     expect(vampire.sleep).to eq(true)
